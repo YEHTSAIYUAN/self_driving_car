@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000362] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000429] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000479] (beginner) JobQueued: {'identifier': 'beginner', 'dependencies': OrderedDict()}
+[0.000527] (beginner) JobStarted: {'identifier': 'beginner'}
+[0.012323] (beginner) JobProgress: {'identifier': 'beginner', 'progress': 'cmake'}
+[0.012631] (beginner) Command: {'cmd': ['/usr/bin/cmake', '/home/khshih/self_driving_cars_ros2/src/beginner', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/khshih/self_driving_cars_ros2/install/beginner'], 'cwd': '/home/khshih/self_driving_cars_ros2/build/beginner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'khshih'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'lzh_TW'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2800'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/local/cuda/lib64:'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'gcin'), ('HOME', '/home/khshih'), ('OLDPWD', '/home/khshih'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'lzh_TW'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1091'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator20x1a6021154d881c'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'khshih'), ('GTK_IM_MODULE', 'gcin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/dashing/bin:/usr/local/cuda/bin:/home/khshih/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('SESSION_MANAGER', 'local/khshih:@/tmp/.ICE-unix/2709,unix/khshih:/tmp/.ICE-unix/2709'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=gcin'), ('XAUTHORITY', '/home/khshih/.Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/khshih'), ('TERMINATOR_UUID', 'urn:uuid:7858ebd9-3b1f-40ed-95c8-07bcf12dfe7e'), ('LC_NAME', 'lzh_TW'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lzh_TW'), ('XDG_VTNR', '7'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/khshih/self_driving_cars_ros2/build/beginner'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'lzh_TW'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.079802] (beginner) StdoutLine: {'line': b'-- The C compiler identification is GNU 6.5.0\n'}
+[0.099381] (-) TimerEvent: {}
+[0.140860] (beginner) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 6.5.0\n'}
+[0.144391] (beginner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199499] (-) TimerEvent: {}
+[0.235052] (beginner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.236456] (beginner) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299622] (-) TimerEvent: {}
+[0.342009] (beginner) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.347641] (beginner) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.399738] (-) TimerEvent: {}
+[0.500147] (-) TimerEvent: {}
+[0.600619] (-) TimerEvent: {}
+[0.645410] (beginner) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.649835] (beginner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.700750] (-) TimerEvent: {}
+[0.769735] (beginner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.770846] (beginner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.800860] (-) TimerEvent: {}
+[0.870942] (beginner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.883423] (beginner) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.900975] (-) TimerEvent: {}
+[1.001357] (-) TimerEvent: {}
+[1.101716] (-) TimerEvent: {}
+[1.202135] (-) TimerEvent: {}
+[1.302582] (-) TimerEvent: {}
+[1.319521] (beginner) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.322506] (beginner) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[1.352619] (beginner) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[1.353000] (beginner) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.402683] (-) TimerEvent: {}
+[1.503006] (-) TimerEvent: {}
+[1.552599] (beginner) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.575059] (beginner) StdoutLine: {'line': b'-- Found rclcpp: 0.7.14 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[1.595608] (beginner) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[1.603083] (-) TimerEvent: {}
+[1.639892] (beginner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[1.641384] (beginner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.642196] (beginner) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.703233] (-) TimerEvent: {}
+[1.747857] (beginner) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.748292] (beginner) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[1.803365] (-) TimerEvent: {}
+[1.848328] (beginner) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[1.848661] (beginner) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.903493] (-) TimerEvent: {}
+[1.941564] (beginner) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.941999] (beginner) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.003628] (-) TimerEvent: {}
+[2.036586] (beginner) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.038195] (beginner) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.073398] (beginner) StdoutLine: {'line': b'-- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[2.103698] (-) TimerEvent: {}
+[2.104153] (beginner) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[2.192613] (beginner) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[2.193708] (beginner) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.193957] (beginner) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.194849] (beginner) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.195632] (beginner) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.196658] (beginner) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.197248] (beginner) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.199959] (beginner) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.203795] (-) TimerEvent: {}
+[2.218661] (beginner) StdoutLine: {'line': b'-- Generating done\n'}
+[2.220324] (beginner) StdoutLine: {'line': b'-- Build files have been written to: /home/khshih/self_driving_cars_ros2/build/beginner\n'}
+[2.223784] (beginner) CommandEnded: {'returncode': 0}
+[2.224809] (beginner) JobProgress: {'identifier': 'beginner', 'progress': 'build'}
+[2.227982] (beginner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/khshih/self_driving_cars_ros2/build/beginner', '--', '-j8', '-l8'], 'cwd': '/home/khshih/self_driving_cars_ros2/build/beginner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'khshih'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'lzh_TW'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2800'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/local/cuda/lib64:'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'gcin'), ('HOME', '/home/khshih'), ('OLDPWD', '/home/khshih'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'lzh_TW'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1091'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator20x1a6021154d881c'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'khshih'), ('GTK_IM_MODULE', 'gcin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/dashing/bin:/usr/local/cuda/bin:/home/khshih/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('SESSION_MANAGER', 'local/khshih:@/tmp/.ICE-unix/2709,unix/khshih:/tmp/.ICE-unix/2709'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=gcin'), ('XAUTHORITY', '/home/khshih/.Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/khshih'), ('TERMINATOR_UUID', 'urn:uuid:7858ebd9-3b1f-40ed-95c8-07bcf12dfe7e'), ('LC_NAME', 'lzh_TW'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lzh_TW'), ('XDG_VTNR', '7'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/khshih/self_driving_cars_ros2/build/beginner'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'lzh_TW'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[2.288229] (beginner) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[2.288459] (beginner) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[2.303912] (-) TimerEvent: {}
+[2.320318] (beginner) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[2.321962] (beginner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[2.404042] (-) TimerEvent: {}
+[2.504387] (-) TimerEvent: {}
+[2.604748] (-) TimerEvent: {}
+[2.705163] (-) TimerEvent: {}
+[2.805504] (-) TimerEvent: {}
+[2.905850] (-) TimerEvent: {}
+[3.006201] (-) TimerEvent: {}
+[3.106564] (-) TimerEvent: {}
+[3.206920] (-) TimerEvent: {}
+[3.307284] (-) TimerEvent: {}
+[3.407633] (-) TimerEvent: {}
+[3.507973] (-) TimerEvent: {}
+[3.608327] (-) TimerEvent: {}
+[3.708672] (-) TimerEvent: {}
+[3.809039] (-) TimerEvent: {}
+[3.909479] (-) TimerEvent: {}
+[4.009817] (-) TimerEvent: {}
+[4.110154] (-) TimerEvent: {}
+[4.210523] (-) TimerEvent: {}
+[4.310897] (-) TimerEvent: {}
+[4.411299] (-) TimerEvent: {}
+[4.428326] (beginner) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[4.511410] (-) TimerEvent: {}
+[4.581580] (beginner) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[4.605755] (beginner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[4.611492] (-) TimerEvent: {}
+[4.711870] (-) TimerEvent: {}
+[4.761167] (beginner) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[4.774171] (beginner) CommandEnded: {'returncode': 0}
+[4.812074] (-) TimerEvent: {}
+[4.816264] (beginner) JobProgress: {'identifier': 'beginner', 'progress': 'install'}
+[4.835528] (beginner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/khshih/self_driving_cars_ros2/build/beginner', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/khshih/self_driving_cars_ros2/build/beginner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'khshih'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'lzh_TW'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2800'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/local/cuda/lib64:'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'gcin'), ('HOME', '/home/khshih'), ('OLDPWD', '/home/khshih'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'lzh_TW'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1091'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator20x1a6021154d881c'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'khshih'), ('GTK_IM_MODULE', 'gcin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/dashing/bin:/usr/local/cuda/bin:/home/khshih/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('SESSION_MANAGER', 'local/khshih:@/tmp/.ICE-unix/2709,unix/khshih:/tmp/.ICE-unix/2709'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=gcin'), ('XAUTHORITY', '/home/khshih/.Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/khshih'), ('TERMINATOR_UUID', 'urn:uuid:7858ebd9-3b1f-40ed-95c8-07bcf12dfe7e'), ('LC_NAME', 'lzh_TW'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lzh_TW'), ('XDG_VTNR', '7'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/khshih/self_driving_cars_ros2/build/beginner'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'lzh_TW'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[4.912199] (-) TimerEvent: {}
+[4.919311] (beginner) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[4.919655] (beginner) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[4.949775] (beginner) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[4.965621] (beginner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.966524] (beginner) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.967529] (beginner) StdoutLine: {'line': b'-- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/lib/beginner/talker\n'}
+[4.983200] (beginner) StdoutLine: {'line': b'-- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/lib/beginner/listener\n'}
+[4.994945] (beginner) StdoutLine: {'line': b'-- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/ament_index/resource_index/package_run_dependencies/beginner\n'}
+[5.007202] (beginner) StdoutLine: {'line': b'-- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/ament_index/resource_index/parent_prefix_path/beginner\n'}
+[5.012296] (-) TimerEvent: {}
+[5.020317] (beginner) StdoutLine: {'line': b'-- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/environment/ament_prefix_path.sh\n'}
+[5.030613] (beginner) StdoutLine: {'line': b'-- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/environment/path.sh\n'}
+[5.040523] (beginner) StdoutLine: {'line': b'-- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/local_setup.bash\n'}
+[5.052012] (beginner) StdoutLine: {'line': b'-- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/local_setup.sh\n'}
+[5.066952] (beginner) StdoutLine: {'line': b'-- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/local_setup.zsh\n'}
+[5.080139] (beginner) StdoutLine: {'line': b'-- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/ament_index/resource_index/packages/beginner\n'}
+[5.090772] (beginner) StdoutLine: {'line': b'-- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/cmake/beginnerConfig.cmake\n'}
+[5.100772] (beginner) StdoutLine: {'line': b'-- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/cmake/beginnerConfig-version.cmake\n'}
+[5.112420] (-) TimerEvent: {}
+[5.113934] (beginner) StdoutLine: {'line': b'-- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/package.xml\n'}
+[5.130743] (beginner) CommandEnded: {'returncode': 0}
+[5.202754] (beginner) JobEnded: {'identifier': 'beginner', 'rc': 0}
+[5.204522] (-) EventReactorShutdown: {}

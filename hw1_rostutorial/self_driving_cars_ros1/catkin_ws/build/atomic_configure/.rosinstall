@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/khshih/self_driving_cars/catkin_ws/devel/setup.sh

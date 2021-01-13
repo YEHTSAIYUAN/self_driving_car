@@ -1,0 +1,2 @@
+beginners
+-DCATKIN_DEVEL_PREFIX=/home/khshih/self_driving_cars/hw1_rostutorial/self_driving_cars_ros1/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/khshih/self_driving_cars/hw1_rostutorial/self_driving_cars_ros1/catkin_ws/install -G Unix Makefiles

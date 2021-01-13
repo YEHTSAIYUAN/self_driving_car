@@ -1,0 +1,794 @@
+[0.000000] (-) TimerEvent: {}
+[0.000990] (beginner) JobQueued: {'identifier': 'beginner', 'dependencies': OrderedDict()}
+[0.001039] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.001584] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001824] (beginner) JobStarted: {'identifier': 'beginner'}
+[0.011424] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.021665] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.031343] (beginner) JobProgress: {'identifier': 'beginner', 'progress': 'cmake'}
+[0.032247] (beginner) Command: {'cmd': ['/usr/bin/cmake', '/home/khshih/self_driving_cars_ros2/src/beginner', '-DCMAKE_INSTALL_PREFIX=/home/khshih/self_driving_cars_ros2/install/beginner'], 'cwd': '/home/khshih/self_driving_cars_ros2/build/beginner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'khshih'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'lzh_TW'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2800'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/local/cuda/lib64'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'gcin'), ('HOME', '/home/khshih'), ('OLDPWD', '/home/khshih/self_driving_cars_ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'lzh_TW'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1091'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator20x1a6021154d881c'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'khshih'), ('GTK_IM_MODULE', 'gcin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/melodic/bin:/usr/local/cuda/bin:/opt/ros/dashing/bin:/usr/local/cuda/bin:/home/khshih/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('SESSION_MANAGER', 'local/khshih:@/tmp/.ICE-unix/2709,unix/khshih:/tmp/.ICE-unix/2709'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=gcin'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/home/khshih/.Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/khshih'), ('TERMINATOR_UUID', 'urn:uuid:80fde240-feb8-4a2c-a957-2aa024ef13d1'), ('LC_NAME', 'lzh_TW'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lzh_TW'), ('XDG_VTNR', '7'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/khshih/self_driving_cars_ros2/build/beginner'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'lzh_TW'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing:/opt/ros/melodic')]), 'shell': False}
+[0.099887] (-) TimerEvent: {}
+[0.200408] (-) TimerEvent: {}
+[0.300724] (-) TimerEvent: {}
+[0.348410] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.349139] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/khshih/self_driving_cars_ros2/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/khshih/self_driving_cars_ros2/install/turtlesim'], 'cwd': '/home/khshih/self_driving_cars_ros2/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'khshih'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'lzh_TW'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2800'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/local/cuda/lib64'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'gcin'), ('HOME', '/home/khshih'), ('OLDPWD', '/home/khshih/self_driving_cars_ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'lzh_TW'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1091'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator20x1a6021154d881c'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'khshih'), ('GTK_IM_MODULE', 'gcin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/melodic/bin:/usr/local/cuda/bin:/opt/ros/dashing/bin:/usr/local/cuda/bin:/home/khshih/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('SESSION_MANAGER', 'local/khshih:@/tmp/.ICE-unix/2709,unix/khshih:/tmp/.ICE-unix/2709'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=gcin'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/home/khshih/.Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/khshih'), ('TERMINATOR_UUID', 'urn:uuid:80fde240-feb8-4a2c-a957-2aa024ef13d1'), ('LC_NAME', 'lzh_TW'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lzh_TW'), ('XDG_VTNR', '7'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/khshih/self_driving_cars_ros2/build/turtlesim'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'lzh_TW'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing:/opt/ros/melodic')]), 'shell': False}
+[0.355258] (beginner) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.355717] (beginner) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.355908] (beginner) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.356099] (beginner) StdoutLine: {'line': b'-- Found rclcpp: 0.7.14 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[0.359561] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/khshih/self_driving_cars_ros2/build/py_pubsub', 'build', '--build-base', '/home/khshih/self_driving_cars_ros2/build/py_pubsub/build', 'install', '--prefix', '/home/khshih/self_driving_cars_ros2/install/py_pubsub', '--record', '/home/khshih/self_driving_cars_ros2/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/khshih/self_driving_cars_ros2/src/py_pubsub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'khshih', 'LANGUAGE': 'en_US', 'LC_TIME': 'lzh_TW', 'TEXTDOMAIN': 'im-config', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2800', 'XDG_SESSION_TYPE': 'x11', 'ROS_PACKAGE_PATH': '/opt/ros/melodic/share', 'LD_LIBRARY_PATH': '/opt/ros/melodic/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/local/cuda/lib64', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'SHLVL': '1', 'QT4_IM_MODULE': 'gcin', 'HOME': '/home/khshih', 'OLDPWD': '/home/khshih/self_driving_cars_ros2/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'lzh_TW', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1091', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator20x1a6021154d881c', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'dashing', 'LOGNAME': 'khshih', 'GTK_IM_MODULE': 'gcin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/melodic/lib/pkgconfig', 'XDG_SESSION_ID': 'c2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/melodic/bin:/usr/local/cuda/bin:/opt/ros/dashing/bin:/usr/local/cuda/bin:/home/khshih/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'GDM_LANG': 'en_US', 'SESSION_MANAGER': 'local/khshih:@/tmp/.ICE-unix/2709,unix/khshih:/tmp/.ICE-unix/2709', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lzh_TW', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lzh_TW', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'ubuntu', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'XMODIFIERS': '@im=gcin', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'XAUTHORITY': '/home/khshih/.Xauthority', 'AMENT_PREFIX_PATH': '/opt/ros/dashing', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/khshih', 'TERMINATOR_UUID': 'urn:uuid:80fde240-feb8-4a2c-a957-2aa024ef13d1', 'LC_NAME': 'lzh_TW', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GJS_DEBUG_OUTPUT': 'stderr', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'lzh_TW', 'XDG_VTNR': '7', 'QT_IM_MODULE': 'xim', 'PWD': '/home/khshih/self_driving_cars_ros2/build/py_pubsub', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'LC_NUMERIC': 'lzh_TW', 'PYTHONPATH': '/home/khshih/self_driving_cars_ros2/install/py_pubsub/lib/python3.6/site-packages:/opt/ros/melodic/lib/python2.7/dist-packages:/opt/ros/dashing/lib/python3.6/site-packages', 'LC_PAPER': 'lzh_TW', 'COLCON': '1', 'VTE_VERSION': '5202', 'CMAKE_PREFIX_PATH': '/opt/ros/melodic'}, 'shell': False}
+[0.374396] (beginner) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[0.400841] (-) TimerEvent: {}
+[0.421978] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 6.5.0\n'}
+[0.425573] (beginner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[0.427240] (beginner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.456278] (beginner) StdoutLine: {'line': b'-- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[0.483429] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 6.5.0\n'}
+[0.489138] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.489332] (beginner) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[0.500929] (-) TimerEvent: {}
+[0.565215] (beginner) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[0.566692] (beginner) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.567106] (beginner) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.568152] (beginner) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.568973] (beginner) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.570075] (beginner) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.570515] (beginner) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.573036] (beginner) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.575399] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.576235] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.594134] (beginner) StdoutLine: {'line': b'-- Generating done\n'}
+[0.596345] (beginner) StdoutLine: {'line': b'-- Build files have been written to: /home/khshih/self_driving_cars_ros2/build/beginner\n'}
+[0.598952] (beginner) CommandEnded: {'returncode': 0}
+[0.600245] (beginner) JobProgress: {'identifier': 'beginner', 'progress': 'build'}
+[0.601335] (beginner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/khshih/self_driving_cars_ros2/build/beginner', '--', '-j8', '-l8'], 'cwd': '/home/khshih/self_driving_cars_ros2/build/beginner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'khshih'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'lzh_TW'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2800'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/local/cuda/lib64'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'gcin'), ('HOME', '/home/khshih'), ('OLDPWD', '/home/khshih/self_driving_cars_ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'lzh_TW'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1091'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator20x1a6021154d881c'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'khshih'), ('GTK_IM_MODULE', 'gcin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/melodic/bin:/usr/local/cuda/bin:/opt/ros/dashing/bin:/usr/local/cuda/bin:/home/khshih/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('SESSION_MANAGER', 'local/khshih:@/tmp/.ICE-unix/2709,unix/khshih:/tmp/.ICE-unix/2709'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=gcin'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/home/khshih/.Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/khshih'), ('TERMINATOR_UUID', 'urn:uuid:80fde240-feb8-4a2c-a957-2aa024ef13d1'), ('LC_NAME', 'lzh_TW'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lzh_TW'), ('XDG_VTNR', '7'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/khshih/self_driving_cars_ros2/build/beginner'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'lzh_TW'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing:/opt/ros/melodic')]), 'shell': False}
+[0.604646] (-) TimerEvent: {}
+[0.670033] (beginner) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[0.672049] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.677186] (beginner) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[0.681055] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.694554] (beginner) CommandEnded: {'returncode': 0}
+[0.703235] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[0.703991] (py_pubsub) StdoutLine: {'line': b'creating /home/khshih/self_driving_cars_ros2/build/py_pubsub/py_pubsub.egg-info\n'}
+[0.704365] (py_pubsub) StdoutLine: {'line': b'writing /home/khshih/self_driving_cars_ros2/build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[0.704710] (-) TimerEvent: {}
+[0.705010] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to /home/khshih/self_driving_cars_ros2/build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[0.705254] (py_pubsub) StdoutLine: {'line': b'writing entry points to /home/khshih/self_driving_cars_ros2/build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[0.705406] (py_pubsub) StdoutLine: {'line': b'writing requirements to /home/khshih/self_driving_cars_ros2/build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[0.705553] (py_pubsub) StdoutLine: {'line': b'writing top-level names to /home/khshih/self_driving_cars_ros2/build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[0.705815] (py_pubsub) StdoutLine: {'line': b"writing manifest file '/home/khshih/self_driving_cars_ros2/build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.729966] (beginner) JobProgress: {'identifier': 'beginner', 'progress': 'install'}
+[0.744042] (beginner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/khshih/self_driving_cars_ros2/build/beginner', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/khshih/self_driving_cars_ros2/build/beginner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'khshih'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'lzh_TW'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2800'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/local/cuda/lib64'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'gcin'), ('HOME', '/home/khshih'), ('OLDPWD', '/home/khshih/self_driving_cars_ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'lzh_TW'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1091'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator20x1a6021154d881c'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'khshih'), ('GTK_IM_MODULE', 'gcin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/melodic/bin:/usr/local/cuda/bin:/opt/ros/dashing/bin:/usr/local/cuda/bin:/home/khshih/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('SESSION_MANAGER', 'local/khshih:@/tmp/.ICE-unix/2709,unix/khshih:/tmp/.ICE-unix/2709'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=gcin'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/home/khshih/.Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/khshih'), ('TERMINATOR_UUID', 'urn:uuid:80fde240-feb8-4a2c-a957-2aa024ef13d1'), ('LC_NAME', 'lzh_TW'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lzh_TW'), ('XDG_VTNR', '7'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/khshih/self_driving_cars_ros2/build/beginner'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'lzh_TW'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing:/opt/ros/melodic')]), 'shell': False}
+[0.752549] (py_pubsub) StdoutLine: {'line': b"reading manifest file '/home/khshih/self_driving_cars_ros2/build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.754500] (py_pubsub) StdoutLine: {'line': b"writing manifest file '/home/khshih/self_driving_cars_ros2/build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.754698] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[0.754843] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[0.754990] (py_pubsub) StdoutLine: {'line': b'creating /home/khshih/self_driving_cars_ros2/build/py_pubsub/build\n'}
+[0.755166] (py_pubsub) StdoutLine: {'line': b'creating /home/khshih/self_driving_cars_ros2/build/py_pubsub/build/lib\n'}
+[0.755310] (py_pubsub) StdoutLine: {'line': b'creating /home/khshih/self_driving_cars_ros2/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.755482] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /home/khshih/self_driving_cars_ros2/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.755645] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/khshih/self_driving_cars_ros2/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.755779] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/khshih/self_driving_cars_ros2/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.755956] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[0.756517] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[0.757892] (py_pubsub) StdoutLine: {'line': b'creating /home/khshih/self_driving_cars_ros2/install/py_pubsub/lib/python3.6/site-packages/py_pubsub\n'}
+[0.758193] (py_pubsub) StdoutLine: {'line': b'copying /home/khshih/self_driving_cars_ros2/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/khshih/self_driving_cars_ros2/install/py_pubsub/lib/python3.6/site-packages/py_pubsub\n'}
+[0.758433] (py_pubsub) StdoutLine: {'line': b'copying /home/khshih/self_driving_cars_ros2/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/khshih/self_driving_cars_ros2/install/py_pubsub/lib/python3.6/site-packages/py_pubsub\n'}
+[0.758629] (py_pubsub) StdoutLine: {'line': b'copying /home/khshih/self_driving_cars_ros2/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/khshih/self_driving_cars_ros2/install/py_pubsub/lib/python3.6/site-packages/py_pubsub\n'}
+[0.758869] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/khshih/self_driving_cars_ros2/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-36.pyc\n'}
+[0.759494] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/khshih/self_driving_cars_ros2/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-36.pyc\n'}
+[0.759906] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/khshih/self_driving_cars_ros2/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/__init__.py to __init__.cpython-36.pyc\n'}
+[0.760121] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[0.760995] (py_pubsub) StdoutLine: {'line': b'creating /home/khshih/self_driving_cars_ros2/install/py_pubsub/share/ament_index\n'}
+[0.761284] (py_pubsub) StdoutLine: {'line': b'creating /home/khshih/self_driving_cars_ros2/install/py_pubsub/share/ament_index/resource_index\n'}
+[0.761516] (py_pubsub) StdoutLine: {'line': b'creating /home/khshih/self_driving_cars_ros2/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.761760] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/khshih/self_driving_cars_ros2/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.761949] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/khshih/self_driving_cars_ros2/install/py_pubsub/share/py_pubsub\n'}
+[0.762184] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.763914] (py_pubsub) StdoutLine: {'line': b'Copying /home/khshih/self_driving_cars_ros2/build/py_pubsub/py_pubsub.egg-info to /home/khshih/self_driving_cars_ros2/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info\n'}
+[0.765804] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[0.793313] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/khshih/self_driving_cars_ros2/install/py_pubsub/lib/py_pubsub\n'}
+[0.793643] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/khshih/self_driving_cars_ros2/install/py_pubsub/lib/py_pubsub\n'}
+[0.793879] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/khshih/self_driving_cars_ros2/build/py_pubsub/install.log'\n"}
+[0.804861] (-) TimerEvent: {}
+[0.821294] (py_pubsub) CommandEnded: {'returncode': 0}
+[0.823280] (beginner) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[0.826800] (beginner) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[0.842771] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[0.853015] (beginner) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[0.861915] (beginner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.862679] (beginner) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.863407] (beginner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/khshih/self_driving_cars_ros2/install/beginner/lib/beginner/talker\n'}
+[0.863887] (beginner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/khshih/self_driving_cars_ros2/install/beginner/lib/beginner/listener\n'}
+[0.864299] (beginner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/khshih/self_driving_cars_ros2/install/beginner/share/ament_index/resource_index/package_run_dependencies/beginner\n'}
+[0.864647] (beginner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/khshih/self_driving_cars_ros2/install/beginner/share/ament_index/resource_index/parent_prefix_path/beginner\n'}
+[0.864966] (beginner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/environment/ament_prefix_path.sh\n'}
+[0.865338] (beginner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/environment/path.sh\n'}
+[0.865775] (beginner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/local_setup.bash\n'}
+[0.866121] (beginner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/local_setup.sh\n'}
+[0.866456] (beginner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/local_setup.zsh\n'}
+[0.866810] (beginner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/khshih/self_driving_cars_ros2/install/beginner/share/ament_index/resource_index/packages/beginner\n'}
+[0.867131] (beginner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/cmake/beginnerConfig.cmake\n'}
+[0.867384] (beginner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/cmake/beginnerConfig-version.cmake\n'}
+[0.867659] (beginner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/package.xml\n'}
+[0.870585] (beginner) CommandEnded: {'returncode': 0}
+[0.905010] (-) TimerEvent: {}
+[0.925160] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.928363] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.938515] (beginner) JobEnded: {'identifier': 'beginner', 'rc': 0}
+[1.005145] (-) TimerEvent: {}
+[1.028531] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.029535] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.105269] (-) TimerEvent: {}
+[1.136452] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.144338] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.205403] (-) TimerEvent: {}
+[1.305794] (-) TimerEvent: {}
+[1.406134] (-) TimerEvent: {}
+[1.506556] (-) TimerEvent: {}
+[1.563250] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.566853] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[1.598838] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[1.599185] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.606639] (-) TimerEvent: {}
+[1.706977] (-) TimerEvent: {}
+[1.807285] (-) TimerEvent: {}
+[1.854407] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 0.7.2 (/opt/ros/dashing/share/ament_index_cpp/cmake)\n'}
+[1.857833] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 0.7.0 (/opt/ros/dashing/share/geometry_msgs/cmake)\n'}
+[1.871949] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[1.907413] (-) TimerEvent: {}
+[1.961471] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 0.7.14 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[1.977659] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[1.979869] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.981141] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.007535] (-) TimerEvent: {}
+[2.078842] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.079450] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[2.107653] (-) TimerEvent: {}
+[2.172022] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[2.172323] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.207760] (-) TimerEvent: {}
+[2.242277] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.242532] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.307871] (-) TimerEvent: {}
+[2.312847] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.313912] (turtlesim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.345061] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 0.7.14 (/opt/ros/dashing/share/rclcpp_action/cmake)\n'}
+[2.407978] (-) TimerEvent: {}
+[2.410639] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)\n'}
+[2.486004] (turtlesim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[2.504831] (turtlesim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/dashing/include  \n'}
+[2.508053] (-) TimerEvent: {}
+[2.561471] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 0.7.0 (/opt/ros/dashing/share/std_srvs/cmake)\n'}
+[2.594540] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[2.608167] (-) TimerEvent: {}
+[2.708505] (-) TimerEvent: {}
+[2.808855] (-) TimerEvent: {}
+[2.843315] (turtlesim) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[2.858179] (turtlesim) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[2.908979] (-) TimerEvent: {}
+[3.009340] (-) TimerEvent: {}
+[3.027524] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[3.029514] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)\n'}
+[3.063069] (turtlesim) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[3.063513] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.063743] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[3.063899] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so\n'}
+[3.090511] (turtlesim) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.109441] (-) TimerEvent: {}
+[3.209784] (-) TimerEvent: {}
+[3.310090] (-) TimerEvent: {}
+[3.410460] (-) TimerEvent: {}
+[3.458792] (turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.510585] (-) TimerEvent: {}
+[3.610992] (-) TimerEvent: {}
+[3.699776] (turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[3.704347] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/khshih/self_driving_cars_ros2/build/turtlesim\n'}
+[3.711103] (turtlesim) CommandEnded: {'returncode': 0}
+[3.711784] (-) TimerEvent: {}
+[3.712177] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[3.712513] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/khshih/self_driving_cars_ros2/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/khshih/self_driving_cars_ros2/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'khshih'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'lzh_TW'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2800'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/local/cuda/lib64'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'gcin'), ('HOME', '/home/khshih'), ('OLDPWD', '/home/khshih/self_driving_cars_ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'lzh_TW'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1091'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator20x1a6021154d881c'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'khshih'), ('GTK_IM_MODULE', 'gcin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/melodic/bin:/usr/local/cuda/bin:/opt/ros/dashing/bin:/usr/local/cuda/bin:/home/khshih/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('SESSION_MANAGER', 'local/khshih:@/tmp/.ICE-unix/2709,unix/khshih:/tmp/.ICE-unix/2709'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=gcin'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/home/khshih/.Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/khshih'), ('TERMINATOR_UUID', 'urn:uuid:80fde240-feb8-4a2c-a957-2aa024ef13d1'), ('LC_NAME', 'lzh_TW'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lzh_TW'), ('XDG_VTNR', '7'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/khshih/self_driving_cars_ros2/build/turtlesim'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'lzh_TW'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing:/opt/ros/melodic')]), 'shell': False}
+[3.774301] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__cpp\x1b[0m\n'}
+[3.774876] (turtlesim) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.791950] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.811895] (-) TimerEvent: {}
+[3.912277] (-) TimerEvent: {}
+[4.012580] (-) TimerEvent: {}
+[4.112882] (-) TimerEvent: {}
+[4.213176] (-) TimerEvent: {}
+[4.313464] (-) TimerEvent: {}
+[4.413787] (-) TimerEvent: {}
+[4.514091] (-) TimerEvent: {}
+[4.614367] (-) TimerEvent: {}
+[4.714631] (-) TimerEvent: {}
+[4.805109] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__cpp\n'}
+[4.814732] (-) TimerEvent: {}
+[4.817013] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.817292] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.914840] (-) TimerEvent: {}
+[5.015141] (-) TimerEvent: {}
+[5.071573] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_generator_c\x1b[0m\n'}
+[5.096889] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/rotate_absolute__functions.c.o\x1b[0m\n'}
+[5.097326] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/set_pen__functions.c.o\x1b[0m\n'}
+[5.097527] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/pose__functions.c.o\x1b[0m\n'}
+[5.097707] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/spawn__functions.c.o\x1b[0m\n'}
+[5.098200] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/kill__functions.c.o\x1b[0m\n'}
+[5.098498] (turtlesim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/color__functions.c.o\x1b[0m\n'}
+[5.115287] (-) TimerEvent: {}
+[5.163189] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/teleport_relative__functions.c.o\x1b[0m\n'}
+[5.174425] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/teleport_absolute__functions.c.o\x1b[0m\n'}
+[5.215387] (-) TimerEvent: {}
+[5.243550] (turtlesim) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_c.so\x1b[0m\n'}
+[5.293051] (turtlesim) StdoutLine: {'line': b'[ 13%] Built target turtlesim__rosidl_generator_c\n'}
+[5.309786] (turtlesim) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.315475] (-) TimerEvent: {}
+[5.415811] (-) TimerEvent: {}
+[5.516169] (-) TimerEvent: {}
+[5.616505] (-) TimerEvent: {}
+[5.716792] (-) TimerEvent: {}
+[5.796802] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.816903] (-) TimerEvent: {}
+[5.826408] (turtlesim) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[5.828361] (turtlesim) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[5.828807] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[5.829616] (turtlesim) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[5.836903] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[5.838794] (turtlesim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[5.917005] (-) TimerEvent: {}
+[6.017382] (-) TimerEvent: {}
+[6.117774] (-) TimerEvent: {}
+[6.218144] (-) TimerEvent: {}
+[6.318519] (-) TimerEvent: {}
+[6.376579] (turtlesim) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[6.383913] (turtlesim) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[6.418642] (-) TimerEvent: {}
+[6.423977] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.460117] (turtlesim) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[6.461886] (turtlesim) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/dds_fastrtps/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[6.462168] (turtlesim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[6.464694] (turtlesim) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[6.468006] (turtlesim) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/dds_fastrtps/set_pen__type_support.cpp.o\x1b[0m\n'}
+[6.518744] (-) TimerEvent: {}
+[6.619112] (-) TimerEvent: {}
+[6.719764] (-) TimerEvent: {}
+[6.820299] (-) TimerEvent: {}
+[6.920793] (-) TimerEvent: {}
+[6.936709] (turtlesim) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/dds_fastrtps/spawn__type_support.cpp.o\x1b[0m\n'}
+[6.962421] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.020915] (-) TimerEvent: {}
+[7.086848] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.121036] (-) TimerEvent: {}
+[7.173610] (turtlesim) StdoutLine: {'line': b'[ 29%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[7.210029] (turtlesim) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[7.221162] (-) TimerEvent: {}
+[7.232992] (turtlesim) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/color__type_support.c.o\x1b[0m\n'}
+[7.271415] (turtlesim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/dds_fastrtps/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[7.274089] (turtlesim) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/pose__type_support.c.o\x1b[0m\n'}
+[7.294595] (turtlesim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/dds_fastrtps/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[7.302617] (turtlesim) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/kill__type_support.c.o\x1b[0m\n'}
+[7.314928] (turtlesim) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/set_pen__type_support.c.o\x1b[0m\n'}
+[7.321284] (-) TimerEvent: {}
+[7.341462] (turtlesim) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/spawn__type_support.c.o\x1b[0m\n'}
+[7.386130] (turtlesim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[7.402982] (turtlesim) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/teleport_relative__type_support.c.o\x1b[0m\n'}
+[7.421384] (-) TimerEvent: {}
+[7.439734] (turtlesim) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.478842] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[7.521502] (-) TimerEvent: {}
+[7.621896] (-) TimerEvent: {}
+[7.722310] (-) TimerEvent: {}
+[7.822726] (-) TimerEvent: {}
+[7.916664] (turtlesim) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.922835] (-) TimerEvent: {}
+[8.010142] (turtlesim) StdoutLine: {'line': b'[ 42%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[8.022048] (turtlesim) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.022894] (-) TimerEvent: {}
+[8.026085] (turtlesim) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.123022] (-) TimerEvent: {}
+[8.223320] (-) TimerEvent: {}
+[8.323614] (-) TimerEvent: {}
+[8.423940] (-) TimerEvent: {}
+[8.524270] (-) TimerEvent: {}
+[8.624602] (-) TimerEvent: {}
+[8.724967] (-) TimerEvent: {}
+[8.728173] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_typesupport_cpp\x1b[0m\n'}
+[8.759260] (turtlesim) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[8.761230] (turtlesim) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[8.761547] (turtlesim) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[8.762741] (turtlesim) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[8.768005] (turtlesim) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[8.769560] (turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[8.775889] (turtlesim) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[8.825078] (-) TimerEvent: {}
+[8.925429] (-) TimerEvent: {}
+[9.025792] (-) TimerEvent: {}
+[9.126179] (-) TimerEvent: {}
+[9.226569] (-) TimerEvent: {}
+[9.326944] (-) TimerEvent: {}
+[9.427317] (-) TimerEvent: {}
+[9.527706] (-) TimerEvent: {}
+[9.542439] (turtlesim) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[9.627835] (-) TimerEvent: {}
+[9.666918] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[9.719221] (turtlesim) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/color__type_support_c.cpp.o\x1b[0m\n'}
+[9.720760] (turtlesim) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/spawn__type_support_c.cpp.o\x1b[0m\n'}
+[9.723259] (turtlesim) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/pose__type_support_c.cpp.o\x1b[0m\n'}
+[9.725526] (turtlesim) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/rotate_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[9.727941] (-) TimerEvent: {}
+[9.732230] (turtlesim) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/set_pen__type_support_c.cpp.o\x1b[0m\n'}
+[9.733733] (turtlesim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/kill__type_support_c.cpp.o\x1b[0m\n'}
+[9.736754] (turtlesim) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/teleport_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[9.828057] (-) TimerEvent: {}
+[9.928558] (-) TimerEvent: {}
+[10.029059] (-) TimerEvent: {}
+[10.129618] (-) TimerEvent: {}
+[10.230151] (-) TimerEvent: {}
+[10.330682] (-) TimerEvent: {}
+[10.423956] (turtlesim) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/teleport_relative__type_support_c.cpp.o\x1b[0m\n'}
+[10.430805] (-) TimerEvent: {}
+[10.450263] (turtlesim) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.530928] (-) TimerEvent: {}
+[10.578658] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[10.631037] (-) TimerEvent: {}
+[10.731367] (-) TimerEvent: {}
+[10.826436] (turtlesim) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.831466] (-) TimerEvent: {}
+[10.919796] (turtlesim) StdoutLine: {'line': b'[ 62%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[10.931661] (turtlesim) StdoutLine: {'line': b'[ 63%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.932007] (-) TimerEvent: {}
+[11.032268] (-) TimerEvent: {}
+[11.132612] (-) TimerEvent: {}
+[11.232945] (-) TimerEvent: {}
+[11.333291] (-) TimerEvent: {}
+[11.433631] (-) TimerEvent: {}
+[11.533987] (-) TimerEvent: {}
+[11.590948] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_typesupport_c\x1b[0m\n'}
+[11.615399] (turtlesim) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[11.617914] (turtlesim) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[11.618891] (turtlesim) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[11.623393] (turtlesim) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[11.623774] (turtlesim) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[11.624332] (turtlesim) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[11.630393] (turtlesim) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[11.630861] (turtlesim) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[11.634101] (-) TimerEvent: {}
+[11.702575] (turtlesim) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.734237] (-) TimerEvent: {}
+[11.777265] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target turtlesim__rosidl_typesupport_c\n'}
+[11.790688] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim\x1b[0m\n'}
+[11.803645] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target turtlesim\n'}
+[11.819732] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__py\x1b[0m\n'}
+[11.820425] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target draw_square\x1b[0m\n'}
+[11.820623] (turtlesim) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating include/turtlesim/moc_turtle_frame.cpp\x1b[0m\n'}
+[11.821057] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_teleop_key\x1b[0m\n'}
+[11.821815] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mimic\x1b[0m\n'}
+[11.834354] (-) TimerEvent: {}
+[11.854961] (turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.910577] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\x1b[0m\n'}
+[11.934514] (-) TimerEvent: {}
+[11.945095] (turtlesim) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[11.946686] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim_node\x1b[0m\n'}
+[11.956928] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o\x1b[0m\n'}
+[12.034665] (-) TimerEvent: {}
+[12.098925] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o\x1b[0m\n'}
+[12.119771] (turtlesim) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[12.123095] (turtlesim) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o\x1b[0m\n'}
+[12.129637] (turtlesim) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[12.134756] (-) TimerEvent: {}
+[12.235128] (-) TimerEvent: {}
+[12.335556] (-) TimerEvent: {}
+[12.435999] (-) TimerEvent: {}
+[12.536492] (-) TimerEvent: {}
+[12.636898] (-) TimerEvent: {}
+[12.737282] (-) TimerEvent: {}
+[12.837789] (-) TimerEvent: {}
+[12.938298] (-) TimerEvent: {}
+[13.038679] (-) TimerEvent: {}
+[13.139070] (-) TimerEvent: {}
+[13.239467] (-) TimerEvent: {}
+[13.339859] (-) TimerEvent: {}
+[13.440256] (-) TimerEvent: {}
+[13.540658] (-) TimerEvent: {}
+[13.641069] (-) TimerEvent: {}
+[13.741474] (-) TimerEvent: {}
+[13.841883] (-) TimerEvent: {}
+[13.942288] (-) TimerEvent: {}
+[14.042691] (-) TimerEvent: {}
+[14.143136] (-) TimerEvent: {}
+[14.243581] (-) TimerEvent: {}
+[14.343957] (-) TimerEvent: {}
+[14.444393] (-) TimerEvent: {}
+[14.544858] (-) TimerEvent: {}
+[14.645216] (-) TimerEvent: {}
+[14.745615] (-) TimerEvent: {}
+[14.846034] (-) TimerEvent: {}
+[14.946432] (-) TimerEvent: {}
+[15.046844] (-) TimerEvent: {}
+[15.147267] (-) TimerEvent: {}
+[15.247669] (-) TimerEvent: {}
+[15.348054] (-) TimerEvent: {}
+[15.448448] (-) TimerEvent: {}
+[15.548955] (-) TimerEvent: {}
+[15.649350] (-) TimerEvent: {}
+[15.749736] (-) TimerEvent: {}
+[15.850103] (-) TimerEvent: {}
+[15.950485] (-) TimerEvent: {}
+[16.051441] (-) TimerEvent: {}
+[16.152397] (-) TimerEvent: {}
+[16.253300] (-) TimerEvent: {}
+[16.353689] (-) TimerEvent: {}
+[16.454046] (-) TimerEvent: {}
+[16.554437] (-) TimerEvent: {}
+[16.654789] (-) TimerEvent: {}
+[16.755153] (-) TimerEvent: {}
+[16.855517] (-) TimerEvent: {}
+[16.955874] (-) TimerEvent: {}
+[17.056333] (-) TimerEvent: {}
+[17.156720] (-) TimerEvent: {}
+[17.165969] (turtlesim) StdoutLine: {'line': b'[ 82%] Built target turtlesim__py\n'}
+[17.186841] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__python\x1b[0m\n'}
+[17.256836] (-) TimerEvent: {}
+[17.334443] (turtlesim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o\x1b[0m\n'}
+[17.341999] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[17.354121] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o\x1b[0m\n'}
+[17.356942] (-) TimerEvent: {}
+[17.457315] (-) TimerEvent: {}
+[17.559784] (-) TimerEvent: {}
+[17.581968] (turtlesim) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o\x1b[0m\n'}
+[17.659916] (-) TimerEvent: {}
+[17.733918] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o\x1b[0m\n'}
+[17.760048] (-) TimerEvent: {}
+[17.828354] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[17.840333] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o\x1b[0m\n'}
+[17.860158] (-) TimerEvent: {}
+[17.960525] (-) TimerEvent: {}
+[18.014555] (turtlesim) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[18.032001] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[18.060660] (-) TimerEvent: {}
+[18.161055] (-) TimerEvent: {}
+[18.261452] (-) TimerEvent: {}
+[18.304808] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__python.so\x1b[0m\n'}
+[18.306853] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target mimic\n'}
+[18.361576] (-) TimerEvent: {}
+[18.396047] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target turtlesim__python\n'}
+[18.419292] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[18.430558] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[18.461687] (-) TimerEvent: {}
+[18.467783] (turtlesim) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[18.478281] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[18.561874] (-) TimerEvent: {}
+[18.662389] (-) TimerEvent: {}
+[18.714759] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[18.762509] (-) TimerEvent: {}
+[18.787829] (turtlesim) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.854099] (turtlesim) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.862649] (-) TimerEvent: {}
+[18.937730] (turtlesim) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[18.956771] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[18.962941] (-) TimerEvent: {}
+[19.005812] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[19.063106] (-) TimerEvent: {}
+[19.163652] (-) TimerEvent: {}
+[19.240149] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target turtle_teleop_key\n'}
+[19.263768] (-) TimerEvent: {}
+[19.298478] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target draw_square\n'}
+[19.363879] (-) TimerEvent: {}
+[19.464266] (-) TimerEvent: {}
+[19.564640] (-) TimerEvent: {}
+[19.665041] (-) TimerEvent: {}
+[19.765383] (-) TimerEvent: {}
+[19.865732] (-) TimerEvent: {}
+[19.966113] (-) TimerEvent: {}
+[20.066439] (-) TimerEvent: {}
+[20.166761] (-) TimerEvent: {}
+[20.267152] (-) TimerEvent: {}
+[20.367522] (-) TimerEvent: {}
+[20.467863] (-) TimerEvent: {}
+[20.568196] (-) TimerEvent: {}
+[20.668526] (-) TimerEvent: {}
+[20.768840] (-) TimerEvent: {}
+[20.869165] (-) TimerEvent: {}
+[20.969503] (-) TimerEvent: {}
+[21.069809] (-) TimerEvent: {}
+[21.170156] (-) TimerEvent: {}
+[21.270488] (-) TimerEvent: {}
+[21.370881] (-) TimerEvent: {}
+[21.471271] (-) TimerEvent: {}
+[21.559753] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[21.571389] (-) TimerEvent: {}
+[21.671737] (-) TimerEvent: {}
+[21.772195] (-) TimerEvent: {}
+[21.872660] (-) TimerEvent: {}
+[21.973112] (-) TimerEvent: {}
+[22.073571] (-) TimerEvent: {}
+[22.173993] (-) TimerEvent: {}
+[22.274433] (-) TimerEvent: {}
+[22.374847] (-) TimerEvent: {}
+[22.475271] (-) TimerEvent: {}
+[22.575746] (-) TimerEvent: {}
+[22.676246] (-) TimerEvent: {}
+[22.776726] (-) TimerEvent: {}
+[22.877178] (-) TimerEvent: {}
+[22.977611] (-) TimerEvent: {}
+[23.078109] (-) TimerEvent: {}
+[23.110790] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[23.128942] (turtlesim) CommandEnded: {'returncode': 0}
+[23.178296] (-) TimerEvent: {}
+[23.278921] (-) TimerEvent: {}
+[23.356231] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[23.356827] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/khshih/self_driving_cars_ros2/build/turtlesim', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/khshih/self_driving_cars_ros2/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'khshih'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'lzh_TW'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2800'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib:/usr/local/cuda/lib64'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'gcin'), ('HOME', '/home/khshih'), ('OLDPWD', '/home/khshih/self_driving_cars_ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'lzh_TW'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1091'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator20x1a6021154d881c'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'khshih'), ('GTK_IM_MODULE', 'gcin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/melodic/bin:/usr/local/cuda/bin:/opt/ros/dashing/bin:/usr/local/cuda/bin:/home/khshih/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('SESSION_MANAGER', 'local/khshih:@/tmp/.ICE-unix/2709,unix/khshih:/tmp/.ICE-unix/2709'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=gcin'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/home/khshih/.Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/khshih'), ('TERMINATOR_UUID', 'urn:uuid:80fde240-feb8-4a2c-a957-2aa024ef13d1'), ('LC_NAME', 'lzh_TW'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lzh_TW'), ('XDG_VTNR', '7'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/khshih/self_driving_cars_ros2/build/turtlesim'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'lzh_TW'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing:/opt/ros/melodic')]), 'shell': False}
+[23.379086] (-) TimerEvent: {}
+[23.424755] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[23.430303] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[23.458148] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[23.470134] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[23.473241] (turtlesim) StdoutLine: {'line': b'[ 42%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[23.479207] (-) TimerEvent: {}
+[23.510747] (turtlesim) StdoutLine: {'line': b'[ 52%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[23.517348] (turtlesim) StdoutLine: {'line': b'[ 62%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[23.554533] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target turtlesim__rosidl_typesupport_c\n'}
+[23.577321] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target turtlesim\n'}
+[23.579315] (-) TimerEvent: {}
+[23.609009] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target turtlesim__py\n'}
+[23.622019] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target mimic\n'}
+[23.623015] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtle_teleop_key\n'}
+[23.623438] (turtlesim) StdoutLine: {'line': b'[ 80%] Built target draw_square\n'}
+[23.643661] (turtlesim) StdoutLine: {'line': b'[ 86%] Built target turtlesim_node\n'}
+[23.660859] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__python\n'}
+[23.679440] (-) TimerEvent: {}
+[23.701331] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[23.703510] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[23.732244] (turtlesim) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[23.743483] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.743866] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[23.744127] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim\n'}
+[23.744334] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv\n'}
+[23.744537] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__struct.hpp\n'}
+[23.744841] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__traits.hpp\n'}
+[23.745059] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/spawn__traits.hpp\n'}
+[23.745231] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/kill__struct.hpp\n'}
+[23.745372] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/kill__traits.hpp\n'}
+[23.745509] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/set_pen__traits.hpp\n'}
+[23.745670] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[23.746095] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[23.746336] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[23.746532] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__traits.hpp\n'}
+[23.746697] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__struct.hpp\n'}
+[23.746902] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[23.747037] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[23.747165] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/spawn__struct.hpp\n'}
+[23.747269] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/set_pen__struct.hpp\n'}
+[23.747373] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action\n'}
+[23.747476] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__traits.hpp\n'}
+[23.747580] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[23.747684] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__struct.hpp\n'}
+[23.747789] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg\n'}
+[23.747892] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[23.747997] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/color__struct.hpp\n'}
+[23.748100] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[23.748203] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/color__traits.hpp\n'}
+[23.748365] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/pose__traits.hpp\n'}
+[23.748785] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/pose__struct.hpp\n'}
+[23.749027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim\n'}
+[23.749302] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv\n'}
+[23.749447] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/spawn__functions.c\n'}
+[23.749684] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/spawn__type_support.h\n'}
+[23.749973] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__functions.h\n'}
+[23.750202] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__functions.c\n'}
+[23.750415] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/kill__struct.h\n'}
+[23.750656] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/set_pen__functions.c\n'}
+[23.750869] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__type_support.h\n'}
+[23.751078] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/set_pen__struct.h\n'}
+[23.751217] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__functions.c\n'}
+[23.751356] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[23.751505] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__struct.h\n'}
+[23.751640] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__type_support.h\n'}
+[23.751775] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/spawn__functions.h\n'}
+[23.751929] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/kill__functions.h\n'}
+[23.752123] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/kill__functions.c\n'}
+[23.752278] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/spawn__struct.h\n'}
+[23.752461] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/kill__type_support.h\n'}
+[23.752620] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/set_pen__type_support.h\n'}
+[23.752827] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__functions.h\n'}
+[23.753001] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[23.753181] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[23.753360] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[23.753529] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[23.753794] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/set_pen__functions.h\n'}
+[23.753960] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__struct.h\n'}
+[23.754156] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action\n'}
+[23.754365] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__struct.h\n'}
+[23.754522] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__type_support.h\n'}
+[23.754675] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[23.754877] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__functions.h\n'}
+[23.755064] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__functions.c\n'}
+[23.755250] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg\n'}
+[23.755428] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/pose__struct.h\n'}
+[23.755594] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[23.755777] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[23.755943] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/pose__type_support.h\n'}
+[23.756123] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/pose__functions.h\n'}
+[23.756286] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[23.756468] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/color__struct.h\n'}
+[23.756665] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/color__type_support.h\n'}
+[23.756855] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/pose__functions.c\n'}
+[23.757045] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/color__functions.c\n'}
+[23.757194] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/color__functions.h\n'}
+[23.757320] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[23.757427] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[23.757528] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/khshih/self_driving_cars_ros2/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[23.757628] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[23.757753] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/khshih/self_driving_cars_ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[23.757907] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[23.758041] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/khshih/self_driving_cars_ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[23.758197] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim\n'}
+[23.758351] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv\n'}
+[23.758476] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__type_support.c\n'}
+[23.758602] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[23.758730] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[23.758856] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/kill__rosidl_typesupport_introspection_c.h\n'}
+[23.758983] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/set_pen__type_support.c\n'}
+[23.759111] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/kill__type_support.c\n'}
+[23.759253] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[23.759387] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__type_support.c\n'}
+[23.759532] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/spawn__rosidl_typesupport_introspection_c.h\n'}
+[23.759657] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/spawn__type_support.c\n'}
+[23.759784] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action\n'}
+[23.759910] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__type_support.c\n'}
+[23.760011] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[23.760118] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg\n'}
+[23.760264] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/color__rosidl_typesupport_introspection_c.h\n'}
+[23.760364] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[23.760469] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/pose__rosidl_typesupport_introspection_c.h\n'}
+[23.760568] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/color__type_support.c\n'}
+[23.760668] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/pose__type_support.c\n'}
+[23.760800] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[23.760962] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/khshih/self_driving_cars_ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[23.761260] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim\n'}
+[23.761448] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv\n'}
+[23.761629] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/spawn__type_support.cpp\n'}
+[23.761847] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.761993] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.762097] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__type_support.cpp\n'}
+[23.762241] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__type_support.cpp\n'}
+[23.762344] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.762449] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.762551] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.762651] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/kill__type_support.cpp\n'}
+[23.762760] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/set_pen__type_support.cpp\n'}
+[23.762910] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action\n'}
+[23.763052] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.763174] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__type_support.cpp\n'}
+[23.763296] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg\n'}
+[23.763420] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.763540] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/pose__type_support.cpp\n'}
+[23.763670] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.763829] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/color__type_support.cpp\n'}
+[23.763945] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[23.764064] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/khshih/self_driving_cars_ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[23.764199] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim\n'}
+[23.764318] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv\n'}
+[23.764418] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[23.764518] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[23.764641] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[23.764741] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[23.764841] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[23.764941] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action\n'}
+[23.765041] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[23.765141] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg\n'}
+[23.765258] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[23.765377] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[23.765478] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/color__rosidl_typesupport_fastrtps_c.h\n'}
+[23.765578] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[23.765697] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/khshih/self_driving_cars_ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[23.765821] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim\n'}
+[23.765920] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv\n'}
+[23.766017] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.766114] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/dds_fastrtps\n'}
+[23.766269] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.766430] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.766589] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.766762] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/srv/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.766936] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action\n'}
+[23.767115] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action/dds_fastrtps\n'}
+[23.767297] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.767467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg\n'}
+[23.767634] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/dds_fastrtps\n'}
+[23.767809] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.767979] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[23.768158] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/include/turtlesim/msg/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.768343] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[23.768517] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/khshih/self_driving_cars_ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[23.768694] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[23.768869] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/__init__.py\n'}
+[23.779526] (-) TimerEvent: {}
+[23.801392] (turtlesim) StdoutLine: {'line': b"Compiling '/home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/__init__.py'...\n"}
+[23.806423] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/action\n'}
+[23.806916] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[23.807267] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[23.807546] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/action/__init__.py\n'}
+[23.807857] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/msg\n'}
+[23.808163] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/msg/_pose.py\n'}
+[23.808465] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/msg/_color.py\n'}
+[23.808668] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/msg/_pose_s.c\n'}
+[23.808898] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/msg/__init__.py\n'}
+[23.809095] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/msg/_color_s.c\n'}
+[23.809325] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv\n'}
+[23.809569] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[23.809765] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[23.809949] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[23.810176] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[23.810408] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[23.810602] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv/_kill_s.c\n'}
+[23.810863] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[23.811089] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv/_spawn.py\n'}
+[23.811313] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv/__init__.py\n'}
+[23.811604] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv/_kill.py\n'}
+[23.811852] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv/_set_pen.py\n'}
+[23.812109] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[23.812365] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""\n'}
+[23.812791] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[23.813065] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/khshih/self_driving_cars_ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""\n'}
+[23.813331] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/libturtlesim__python.so\n'}
+[23.813604] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/khshih/self_driving_cars_ros2/install/turtlesim/lib/libturtlesim__python.so" to ""\n'}
+[23.813872] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[23.814111] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[23.814354] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[23.814570] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[23.814791] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[23.814982] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[23.815174] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[23.815364] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[23.815587] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[23.815777] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[23.815967] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[23.816157] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[23.816348] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[23.816539] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[23.816728] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[23.816918] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[23.817107] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[23.817295] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[23.817482] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[23.817743] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[23.817938] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[23.818128] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[23.818317] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[23.818506] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[23.818701] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[23.818889] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[23.819167] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[23.819368] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/khshih/self_driving_cars_ros2/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[23.819565] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[23.819755] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/khshih/self_driving_cars_ros2/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[23.819942] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/turtlesim/draw_square\n'}
+[23.820927] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/khshih/self_driving_cars_ros2/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[23.821146] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/lib/turtlesim/mimic\n'}
+[23.822768] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/khshih/self_driving_cars_ros2/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[23.823078] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/images\n'}
+[23.823339] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[23.823586] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[23.823806] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[23.824022] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[23.824241] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/launch\n'}
+[23.824474] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[23.824705] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[23.824940] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[23.825167] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[23.825390] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[23.825663] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[23.825969] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[23.826299] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[23.826530] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[23.826740] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[23.826950] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.827165] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[23.827382] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[23.827614] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[23.827828] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[23.828031] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/khshih/self_driving_cars_ros2/install/turtlesim/share/turtlesim/package.xml\n'}
+[23.831307] (turtlesim) CommandEnded: {'returncode': 0}
+[23.879689] (-) TimerEvent: {}
+[23.980180] (-) TimerEvent: {}
+[24.065332] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[24.067259] (-) EventReactorShutdown: {}

@@ -1,0 +1,13 @@
+/home/khshih/self_driving_cars_ros2/install/beginner/lib/beginner/talker
+/home/khshih/self_driving_cars_ros2/install/beginner/lib/beginner/listener
+/home/khshih/self_driving_cars_ros2/install/beginner/share/ament_index/resource_index/package_run_dependencies/beginner
+/home/khshih/self_driving_cars_ros2/install/beginner/share/ament_index/resource_index/parent_prefix_path/beginner
+/home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/environment/ament_prefix_path.sh
+/home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/environment/path.sh
+/home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/local_setup.bash
+/home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/local_setup.sh
+/home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/local_setup.zsh
+/home/khshih/self_driving_cars_ros2/install/beginner/share/ament_index/resource_index/packages/beginner
+/home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/cmake/beginnerConfig.cmake
+/home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/cmake/beginnerConfig-version.cmake
+/home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/package.xml

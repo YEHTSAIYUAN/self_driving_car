@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/khshih/self_driving_cars_ros2/build/beginner/talker" "/home/khshih/self_driving_cars_ros2/build/beginner/listener" "TARGETS" "talker" "listener" "DESTINATION" "lib/beginner")

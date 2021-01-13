@@ -1,0 +1,8 @@
+/home/khshih/self_driving_cars_ros2/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/home/khshih/self_driving_cars_ros2/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/home/khshih/self_driving_cars_ros2/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/home/khshih/self_driving_cars_ros2/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/home/khshih/self_driving_cars_ros2/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/home/khshih/self_driving_cars_ros2/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/home/khshih/self_driving_cars_ros2/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/home/khshih/self_driving_cars_ros2/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

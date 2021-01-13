@@ -1,0 +1,75 @@
+[0.013s] Invoking command in '/home/khshih/self_driving_cars_ros2/build/beginner': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/khshih/self_driving_cars_ros2/src/beginner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khshih/self_driving_cars_ros2/install/beginner
+[0.079s] -- The C compiler identification is GNU 6.5.0
+[0.140s] -- The CXX compiler identification is GNU 6.5.0
+[0.143s] -- Check for working C compiler: /usr/bin/cc
+[0.234s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.235s] -- Detecting C compiler ABI info
+[0.341s] -- Detecting C compiler ABI info - done
+[0.346s] -- Detecting C compile features
+[0.644s] -- Detecting C compile features - done
+[0.649s] -- Check for working CXX compiler: /usr/bin/c++
+[0.769s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.770s] -- Detecting CXX compiler ABI info
+[0.870s] -- Detecting CXX compiler ABI info - done
+[0.882s] -- Detecting CXX compile features
+[1.318s] -- Detecting CXX compile features - done
+[1.321s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.352s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.352s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.552s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.574s] -- Found rclcpp: 0.7.14 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.594s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.639s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.640s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.641s] -- Looking for pthread.h
+[1.747s] -- Looking for pthread.h - found
+[1.747s] -- Looking for pthread_create
+[1.847s] -- Looking for pthread_create - not found
+[1.847s] -- Looking for pthread_create in pthreads
+[1.941s] -- Looking for pthread_create in pthreads - not found
+[1.941s] -- Looking for pthread_create in pthread
+[2.035s] -- Looking for pthread_create in pthread - found
+[2.037s] -- Found Threads: TRUE  
+[2.072s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[2.103s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[2.191s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[2.192s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.193s] -- Configured cppcheck include dirs: 
+[2.194s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.194s] -- Added test 'lint_cmake' to check CMake code style
+[2.195s] -- Added test 'uncrustify' to check C / C++ code style
+[2.196s] -- Added test 'xmllint' to check XML markup files
+[2.199s] -- Configuring done
+[2.218s] -- Generating done
+[2.219s] -- Build files have been written to: /home/khshih/self_driving_cars_ros2/build/beginner
+[2.223s] Invoked command in '/home/khshih/self_driving_cars_ros2/build/beginner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/khshih/self_driving_cars_ros2/src/beginner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khshih/self_driving_cars_ros2/install/beginner
+[2.227s] Invoking command in '/home/khshih/self_driving_cars_ros2/build/beginner': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/khshih/self_driving_cars_ros2/build/beginner -- -j8 -l8
+[2.287s] [35m[1mScanning dependencies of target talker[0m
+[2.287s] [35m[1mScanning dependencies of target listener[0m
+[2.319s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[2.321s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.427s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[4.580s] [ 75%] Built target talker
+[4.605s] [100%] [32m[1mLinking CXX executable listener[0m
+[4.760s] [100%] Built target listener
+[4.773s] Invoked command in '/home/khshih/self_driving_cars_ros2/build/beginner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/khshih/self_driving_cars_ros2/build/beginner -- -j8 -l8
+[4.835s] Invoking command in '/home/khshih/self_driving_cars_ros2/build/beginner': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/khshih/self_driving_cars_ros2/build/beginner --target install -- -j8 -l8
+[4.918s] [100%] Built target talker
+[4.918s] [100%] Built target listener
+[4.950s] [36mInstall the project...[0m
+[4.964s] -- Install configuration: ""
+[4.965s] -- Execute custom install script
+[4.966s] -- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/lib/beginner/talker
+[4.982s] -- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/lib/beginner/listener
+[4.994s] -- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/ament_index/resource_index/package_run_dependencies/beginner
+[5.006s] -- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/ament_index/resource_index/parent_prefix_path/beginner
+[5.019s] -- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/environment/ament_prefix_path.sh
+[5.029s] -- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/environment/path.sh
+[5.039s] -- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/local_setup.bash
+[5.051s] -- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/local_setup.sh
+[5.066s] -- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/local_setup.zsh
+[5.079s] -- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/ament_index/resource_index/packages/beginner
+[5.090s] -- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/cmake/beginnerConfig.cmake
+[5.100s] -- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/cmake/beginnerConfig-version.cmake
+[5.113s] -- Symlinking: /home/khshih/self_driving_cars_ros2/install/beginner/share/beginner/package.xml
+[5.131s] Invoked command in '/home/khshih/self_driving_cars_ros2/build/beginner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/khshih/self_driving_cars_ros2/build/beginner --target install -- -j8 -l8
